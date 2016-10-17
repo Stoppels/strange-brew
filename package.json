@@ -11,14 +11,18 @@
     "url": "git+https://Stoppels@github.com/Stoppels/strange-brew.git"
   },
   "keywords": [
-  	"tutorial",
-  	"craft beer",
-  	"react",
-  	"express"],
+    "tutorial",
+    "craft beer",
+    "react",
+    "express"
+  ],
   "author": "N. Shayan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Stoppels/strange-brew/issues"
   },
-  "homepage": "https://github.com/Stoppels/strange-brew#readme"
+  "homepage": "https://github.com/Stoppels/strange-brew#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
