@@ -1,0 +1,24 @@
+{
+  "name": "strange-brew",
+  "version": "1.0.0",
+  "description": "An app to rate craft beer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Stoppels@github.com/Stoppels/strange-brew.git"
+  },
+  "keywords": [
+  	"tutorial",
+  	"craft beer",
+  	"react",
+  	"express"],
+  "author": "N. Shayan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stoppels/strange-brew/issues"
+  },
+  "homepage": "https://github.com/Stoppels/strange-brew#readme"
+}
