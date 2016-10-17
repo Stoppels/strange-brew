@@ -1,5 +1,5 @@
 export default {
-	entry: './public/App.js',
+	entry: './app/index.js',
 	output: {
 		path: '.public',
 		filename: 'bundle.js'
