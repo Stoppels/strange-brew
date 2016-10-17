@@ -1,5 +1,5 @@
 import express from 'express';
-import path, { resolve as resv } from 'path';
+import path, { resolve } from 'path';
 
 const app = express();
 const host = process.env.HOST || '0.0.0.0';
@@ -7,8 +7,7 @@ const port = process.env.PORT || '1337';
 
 app.use(
 	express.static(
-		// resolve(__dirname, '..', 'public')
-		resv('${__dirname}/../public')
+		resolve('${__dirname}/../public')
 		)
 	);
 
